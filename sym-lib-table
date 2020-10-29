@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name trap-pcb)(type Legacy)(uri ${KIPRJMOD}/libraries/trap-pcb.lib)(options "")(descr ""))
+  (lib (name trap-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/trap-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name switch)(type Legacy)(uri /Users/mariasale/Downloads/ul_EG1218/KiCAD/2020-10-26_19-11-30/2020-10-26_19-11-30.lib)(options "")(descr ""))
+)

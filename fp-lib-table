@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name trap-pcb)(type KiCad)(uri ${KIPRJMOD}/libraries/trap-pcb.pretty)(options "")(descr ""))
+  (lib (name switches)(type KiCad)(uri /Users/mariasale/Downloads/ul_EG1218/KiCAD/2020-10-26_19-11-30/footprints.pretty)(options "")(descr ""))
+)
