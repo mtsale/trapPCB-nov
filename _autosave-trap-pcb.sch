@@ -1740,12 +1740,6 @@ Wire Wire Line
 	9400 1150 9500 1150
 Wire Wire Line
 	9400 1550 9500 1550
-Wire Wire Line
-	9500 1250 9100 1250
-Wire Wire Line
-	9500 1350 9100 1350
-Wire Wire Line
-	9500 1450 9100 1450
 $Comp
 L trap-pcb-rescue:GND-power-trap-pcb-rescue #PWR0120
 U 1 1 6058600C
@@ -1790,8 +1784,6 @@ F 3 "" H 4350 5150 60  0000 C CNN
 	1    4350 5150
 	1    0    0    -1  
 $EndComp
-Text Label 5100 5150 0    50   ~ 0
-MODE_SWITCH
 $Comp
 L trap-pcb-rescue:+5V-power #PWR0121
 U 1 1 606ECC54
@@ -1882,8 +1874,6 @@ F 3 "" H 6000 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 3200 6000 3250
-Text Label 5600 3800 2    50   ~ 0
-ECHO_MAIN
 Wire Wire Line
 	5650 3850 5650 3800
 Connection ~ 5650 3800
@@ -1950,10 +1940,6 @@ F 5 "C2286" H 7000 3400 50  0001 C CNN "JLCPCB SMD"
 $EndComp
 Wire Wire Line
 	7000 3200 7000 3250
-Text Label 6700 3750 2    50   ~ 0
-ECHO_CAGE
-Wire Wire Line
-	6600 3800 6650 3800
 Wire Wire Line
 	6650 3850 6650 3800
 Connection ~ 6650 3800
@@ -2020,10 +2006,6 @@ F 5 "C2286" H 8100 3350 50  0001 C CNN "JLCPCB SMD"
 $EndComp
 Wire Wire Line
 	8100 3150 8100 3200
-Text Label 7850 3700 2    50   ~ 0
-ECHO_CAGE2
-Wire Wire Line
-	7700 3750 7750 3750
 Wire Wire Line
 	7750 3800 7750 3750
 Connection ~ 7750 3750
@@ -2221,16 +2203,6 @@ Wire Wire Line
 	2200 3300 2250 3300
 Wire Wire Line
 	1400 3300 2200 3300
-Text Label 8950 1250 0    50   ~ 0
-TRIGGER_CAGE
-Text Label 9000 1350 0    50   ~ 0
-ECHO_CAGE
-Text Label 8950 1450 0    50   ~ 0
-ECHO_CAGE2
-Wire Wire Line
-	5600 3800 5650 3800
-Wire Wire Line
-	5500 3800 5650 3800
 Connection ~ 5300 1300
 Connection ~ 5300 1400
 Wire Wire Line
@@ -2369,4 +2341,32 @@ Wire Wire Line
 	9250 2600 8800 2600
 Text Label 8800 2600 0    50   ~ 0
 ECHO_MAIN
+Wire Wire Line
+	9500 1250 8950 1250
+Wire Wire Line
+	9500 1350 8950 1350
+Wire Wire Line
+	9500 1450 8950 1450
+Text Label 8950 1250 0    50   ~ 0
+TRIGGER_CAGE
+Text Label 8950 1350 0    50   ~ 0
+ECHO_CAGE
+Text Label 8950 1450 0    50   ~ 0
+ECHO_CAGE2
+Text Label 5550 5150 0    50   ~ 0
+MODE_SWITCH
+Wire Wire Line
+	5600 3800 5650 3800
+Wire Wire Line
+	6300 3800 6650 3800
+Wire Wire Line
+	5300 3800 5650 3800
+Text Label 6300 3800 0    50   ~ 0
+ECHO_CAGE
+Text Label 5300 3800 0    50   ~ 0
+ECHO_MAIN
+Wire Wire Line
+	7300 3750 7750 3750
+Text Label 7300 3750 0    50   ~ 0
+ECHO_CAGE2
 $EndSCHEMATC
